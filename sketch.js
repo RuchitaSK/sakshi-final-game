@@ -396,7 +396,7 @@ chand.visible = false;
 function draw() {
   background("blue");
  
- if (mousePressedOver(click)){
+ if (mousePressedOver(wall1)){
    gameState = "play";
  }
   if (gameState === "play"){
